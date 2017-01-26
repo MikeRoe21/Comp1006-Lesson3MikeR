@@ -13,7 +13,7 @@ $year = $_POST['year'];
 $artist = $_POST['artist'];
 
 // connect to db - dbtype, server address, dbname, username, password
-$conn = new PDO('mysql:host=localhost;dbname=gcrfreeman', 'root', 'TiggerKitty21');
+$conn = new PDO('mysql:host=ca-cdbr-azure-central-a.cloudapp.net;dbname=comp1006MikeR', 'bc57fb05ed722d', 'fba1b25c');
 
 // set up an SQL instruction to save the new album - INSERT
 $sql = "INSERT INTO albums (title, year, artist) VALUES (:title, :year, :artist);";

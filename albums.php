@@ -13,7 +13,7 @@
 
 // connect
 
-$conn = new PDO('mysql:host=localhost;dbname=', 'root', 'TiggerKitty21');
+$conn = new PDO('mysql:host=ca-cdbr-azure-central-a.cloudapp.net;dbname=comp1006MikeR', 'bc57fb05ed722d', 'fba1b25c');
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 //set up query
